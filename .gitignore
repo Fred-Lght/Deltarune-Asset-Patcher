@@ -1,0 +1,25 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# Deltarune game data & backups (do not commit proprietary game assets)
+*.win
+*.win.bak
+
+# Test dumps & temporary output
+*.tmp
+*.tmp.*
+all_strings.json
+strings.json
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# OS generated files
+.DS_Store
+Thumbs.db
